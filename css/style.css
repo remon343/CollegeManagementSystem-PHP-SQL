@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+form{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 4px solid rgb(44, 62, 138);
+    border-radius: 20px;
+    width: 310px;
+    padding: 16px;
+    margin:190px 500px 0px 500px;
+}   
+img{
+    height: 100px;
+    width: 100px;
+    display: block;
+    border-radius: 50%;
+    margin-top:-78.5px;
+}
+/* label{
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 20px;
+} */
+body{
+    background:url("pictures/book.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input[type="text"],input[type="password"]{
+    width:200px;
+    height:30px;
+    border-width: 0px 0px 2px 0px;
+    border-color:rgb(44, 62, 138);
+    outline:none;
+    margin:15px;
+    margin-left: 17px;
+
+
+}
+input[type="submit"]{
+    background-color: rgb(44, 62, 138);;
+    color:aliceblue;
+    border: none;
+    height:35px;
+    width:120px;
+    display:block;
+    margin:12px;
+
+}
+.button{
+    margin-left: 16%;
+}
+
+
+.button:hover{
+    background-color: black;
+    color:rgba(245, 244, 248, 0.877);
+    border-radius: 2%;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color:blue;
+
+}
