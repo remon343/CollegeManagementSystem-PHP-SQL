@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <form action="check_login/check.php" method="post">
+    <form action="check_login/check.php" class="flex-" method="post">
         <input type="text" name="user" placeholder="user">
         <input type="password" name="pass" placeholder="pass">
         
